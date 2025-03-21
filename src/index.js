@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
       taskItem.textContent = newTaskDescription;
       taskList.appendChild(taskItem);
 
-      // Clear the input field after adding the task
       document.getElementById("new-task-description").value = "";
     }
   });
